@@ -3,20 +3,23 @@
 	header("Content-type: application/json");
 
 	$con = mysqli_connect("localhost", "root", "mysql", "SciBowlSim");
-	$sql = sprintf("SELECT * FROM Round WHERE qnum='%s' AND qtype='%s'",
-		mysql_real_escape_string($_GET['qnum']),
-		mysql_real_escape_string($_GET['qtype']));
+	#$con = mysqli_connect("localhost", "903286_root", "mysql", "reng_zxq_scibowlsim");
+
+	/*$sql = sprintf("SELECT * FROM Round WHERE matchNum='%s' AND pointVal='%s'",
+		mysql_real_escape_string($_GET['matchNum']),
+		mysql_real_escape_string($_GET['pointVal']));*/
+	$sql = sprintf("SELECT * FROM Round WHERE matchNum='%s' AND pointVal='%s'",$_GET['matchNum'],$_GET['pointVal']);
 	$mysql_result = mysqli_query($con, $sql);
 	
 	// fetch row
 	$row = mysqli_fetch_assoc($mysql_result);
 
-	$qtopic   = $row['qtopic'];
-	$qformat  = $row['qformat'];
-	$question = $row['question'];
-	$q_arr    = json_encode(explode(" ", $question));
+	$topic   = $row['topic'];
+	$format  = $row['format'];
+	$problem = $row['problem'];
+	$q_arr    = json_encode(explode(" ", $problem));
 	$solution = $row['solution'];
 
 	// output JSON (Javascript object)
-	print("{qtopic: '$qtopic', qformat: '$qformat', question: $q_arr, solution: '$solution'}");
+	print("{topic: '$topic', format: '$format', problem: $q_arr, solution: '$solution'}");
 ?>

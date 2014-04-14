@@ -1,7 +1,7 @@
 // adjustable variables
 var wrps = 5; // words read per second
 var period = 1;
-var qtype = 4; // 4 = toss-up, 10 = bonus
+var pointVal = 4; // 4 = toss-up, 10 = bonus
 var roundClock;
 var buzzerClock;
 var endBuzz; // Used to measure time to the end of one question
@@ -17,11 +17,14 @@ var qnum = 0;
 var currentQuestion;
 var questionStart = false; // has a question begun being asked? Sees if its buzzable
 
+//returns the number of characters which are different from each other
+//THIS INIFITE LOOPS AND FREEZES THE PROGRAM.
 function getEditDistance(response, solution) {
-	if (response.length == 0 && solution.length == 0) return 0;
+	//alert("dang does this infinite loop");
+	if (response.length <= 0 && solution.length <= 0) return 0;
 	if (response == solution) return 0;
-	if (response.length == 0 && solution.length != 0) return solution.length;
-	if (response.length != 0 && solution.length == 0) return response.length;
+	if (response.length <= 0 && solution.length != 0) return solution.length;
+	if (response.length != 0 && solution.length <= 0) return response.length;
 	else {
 		var sub = 0;
 		if (response.charAt(0) == solution.charAt(0)) {
@@ -47,6 +50,24 @@ function trim(str) {
 	return str;
 };
 
+//returns true if the response was correct. Tolerance can be added
+function checkResponse(response, solution){
+	var tolerance = 1; //Increase tolerance to allow for more lenient answers
+	if(currentQuestion.format == "Multiple Choice"){
+		if(response.toLowerCase().substring(0,1) == solution.toLowerCase().substring(0,1)){ //W X Y or Z
+			return true;
+		} else if(getEditDistance(response.toLowerCase(), solution.toLowerCase()) < tolerance+3){ //Added tolerance for not including WXYZ
+			return true;
+		}
+	} else { //Short Answer
+		if(getEditDistance(response.toLowerCase(), solution.toLowerCase()) < tolerance){
+			return true;
+		}
+	}
+	//Answer was incorrect
+	return false;
+}
+
 //All questions must go through this function whether or not a buzz occured
 function retrieveResponse() {
 	buzzerCount = 0;
@@ -54,21 +75,22 @@ function retrieveResponse() {
 	var currentSolution = currentQuestion.solution;
 	
 	if(buzzedIn){ //Check if there's even an answer to get
-		if (getEditDistance(response.toLowerCase(), currentSolution.toLowerCase()) < 1) { //Check if correct
-			score += qtype;
+		if(checkResponse(response.toLowerCase(), currentSolution.toLowerCase())){
+		//if(getEditDistance(response.toLowerCase(), currentSolution.toLowerCase()) < 1){
+			score += pointVal;
 			document.getElementById("score").innerHTML = score;
-			if (qtype == 4) { //if you got it right, get bonus question
-				qtype = 10;
+			if (pointVal == 4) { //if you got it right, get bonus question
+				pointVal = 10;
 			} else { //you just got bonus right, get next tossup
-				qtype = 4;
+				pointVal = 4;
 				qnum++;
 			}
 		} else { //you got it wrong, next tossup
-			qtype = 4;
+			pointVal = 4;
 			qnum++;
 		}
 	} else { //you didn't even buzz in
-		qtype = 4;
+		pointVal = 4;
 		qnum ++;
 	}
 	resettoNextQuest();
@@ -122,13 +144,13 @@ function roundCountDown() {
 
 //Answering the question phase of the problem
 function questionResponse() {
-	if(qtype == 10 || buzzedIn){
+	if(pointVal == 10 || buzzedIn){
 		buzzedIn = true;
 		$('#response-input').prop('disabled', false); // textbox clickable
 		$('#response-input').focus(); // textbox contains cursor on space
 		clearInterval(buzzerClock);
 	} 
-	if (qtype == 4) {
+	if (pointVal == 4) {
 		buzzerCount = 5;
 		// Need to add this extra buzzerCountDown to eliminate one second delay
 		// between the buzz and the timer starting the countdown. DAVID FORGOT THIS. BLARGH
@@ -143,7 +165,7 @@ function questionResponse() {
 
 //Starts the question phase. Called at the beginning of each question phase.
 function readQuestion() {
-	if (roundCount <= 0 && qtype == 4) {
+	if (roundCount <= 0 && pointVal == 4) {
 		clearInterval(roundClock);
 		period++;
 		alert('Round done');
@@ -161,7 +183,7 @@ function readQuestion() {
 		return;
 	}
 	// construct URL
-	var url = "getquestion.php?qnum=" + qnum + "&qtype=" + qtype;
+	var url = "getquestion.php?matchNum=" + qnum + "&pointVal=" + pointVal;
 	//alert("url = "+url);
 	// get question
 	xhr.onreadystatechange = handler;
@@ -170,11 +192,41 @@ function readQuestion() {
 
 	// I'm putting display Tossup and Bonus here so it fills the awk 2 second
 	// pause when its ajax calling.
-	if (qtype == 4) {
+	if (pointVal == 4) {
 		displayText("Toss-up", 1500);
 	} else {
 		displayText("Bonus", 1500);
 	}
+};
+
+function generateQuests() {
+	//alert("HELLO");
+	try {
+		xhr = new XMLHttpRequest();
+	}
+	catch(e) {
+		xhr = new ActiveXObject("Microsoft.XMLHTTP");
+	}
+	// handle old browsers
+	if (xhr == null) {
+		alert("Ajax not supported by your browser!");
+		return;
+	}
+	// construct URL
+	var questDifficulty = document.getElementById("questDifficulty").value;
+	var questTopics = document.getElementById("questTopics").value;
+	var questQuantity = document.getElementById("questQuantity").value;
+	//alert("HEYO"+questDifficulty+questTopics+questQuantity);
+	var url = "getset.php?questDiff="+questDifficulty+"&questTop="+questTopics+"&questQuant="+questQuantity;
+	//alert("url = "+url);
+	// get question
+	xhr.onreadystatechange = function(){
+		if (xhr.readyState == 4 && xhr.status == 200) {
+			document.getElementById("question").innerHTML=xhr.responseText;
+		}
+	}
+	xhr.open("GET", url, true);
+	xhr.send(null);
 };
 
 //Spits out only one word when called
@@ -208,27 +260,67 @@ function handler() {
 			//alert(xhr.responseText);
 
 /*
-			if (qtype == 4) {
+			if (pointVal == 4) {
 				displayText("Toss-up", 0);
 			} else {
 				displayText("Bonus", 0);
 			}
 */		
 
-			displayText(currentQuestion.qtopic, 1000/wrps);
-			displayText(currentQuestion.qformat, 2*1000/wrps);
+			displayText(currentQuestion.topic, 1000/wrps);
+			displayText(currentQuestion.format, 2*1000/wrps);
 
 			questionStart = true;
 
-			for (var i = 0; i < (currentQuestion.question).length; i++) {
-				displayText((currentQuestion.question)[i], 3*1000/wrps + i*1000/wrps);
+			for (var i = 0; i < (currentQuestion.problem).length; i++) {
+				displayText((currentQuestion.problem)[i], 3*1000/wrps + i*1000/wrps);
 			}
 
 			//Opens answer box automatically at the end of the question if nobody buzzes during the question.
 			endBuzz = setTimeout(function() {
 				if (!buzzedIn) questionResponse();
 				//alert("currentQuestion.question = "+currentQuestion.question);
-			}, 3*1000/wrps + (currentQuestion.question).length * 1000/wrps);
+			}, 3*1000/wrps + (currentQuestion.problem).length * 1000/wrps);
+
+		} else {
+			alert("Error with Ajax call!");
+		}		
+	}
+};
+
+function bulkHandler(){
+// only handle loaded requests
+	if (xhr.readyState == 4) {
+		if (xhr.status == 200) {
+			// evaluate JSON for current question
+			// qtopic, qformat, question, solution
+			// Convert JSON string to Javascript object
+			currentQuestion = eval('(' + xhr.responseText + ')');
+			// show JSON in alertbox
+			//alert(xhr.responseText);
+
+/*
+			if (pointVal == 4) {
+				displayText("Toss-up", 0);
+			} else {
+				displayText("Bonus", 0);
+			}
+*/		
+
+			displayText(currentQuestion.topic, 1000/wrps);
+			displayText(currentQuestion.format, 2*1000/wrps);
+
+			questionStart = true;
+
+			for (var i = 0; i < (currentQuestion.problem).length; i++) {
+				displayText((currentQuestion.problem)[i], 3*1000/wrps + i*1000/wrps);
+			}
+
+			//Opens answer box automatically at the end of the question if nobody buzzes during the question.
+			endBuzz = setTimeout(function() {
+				if (!buzzedIn) questionResponse();
+				//alert("currentQuestion.question = "+currentQuestion.question);
+			}, 3*1000/wrps + (currentQuestion.problem).length * 1000/wrps);
 
 		} else {
 			alert("Error with Ajax call!");

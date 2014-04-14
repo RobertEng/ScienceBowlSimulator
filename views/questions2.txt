@@ -1,0 +1,8 @@
+0##4##Life Science##Short Answer##What organelle functions to isolate a human cell\'s chromosomes from the cytoplasm?##Nucleus##
+0##10##Life Science##Short Answer##What is the primary oxygen-carrying protein found in red blood cells?##Hemoglobin##
+1##4##Physical Science##Short Answer##What physical state of matter is intermediate between a solid and gas?##Liquid##
+1##10##Physical Science##Multiple Choice##Which of the following BEST describes the term static: W) stationary X) low Y) constant Z) used##W) Stationary##
+2##4##Earth Science##Short Answer##What is the general name for the rising and falling of sea levels in response to the forces exerted by the Moon and Sun?##Tides##
+2##10##Earth Science##Multiple Choice##Approximately what fraction of Earths surface is covered by oceans: W) one-half X) two-thirds Y) seven-tenths Z) four-fifths##Y) seven-tenths##
+3##4##Math##Short Answer##How many degrees are in one-third of a right angle?##30##
+3##10##Math##Short Answer##Round the number 535,279 to the nearest ten-thousand:##540,000##

@@ -1,8 +1,9 @@
-<?php
+<?phpx
 	// include "../includes/init.php"  // creates db SciBowlSim
 	// include "../includes/mkTb.php"  // makes table Round
-	// include "../includes/popTb.php" // populates table Round
+	// include "../includes/popTb3.php" // populates table Round
 	// include "../includes/conn.php"  // connects to SciBowlSim Database in MySQL
+	
 ?>
 
 <!DOCTYPE html>
@@ -33,8 +34,8 @@
 	<div class="container">
 		<div class="header">
 			<ul class="nav nav-pills pull-right">
-				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
+				<li class="active"><a href="index.php">Home</a></li>
+				<li><a href="generator.php">Generator</a></li>
 				<li><a href="#">Contact</a></li>
 			</ul>
 			<h3 class="text-muted">MySciBowlSimulator!</h3>

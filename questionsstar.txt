@@ -1,0 +1,59 @@
+0##4##Self Generated##Short Answer##A What is a massive, luminous sphere of plasma held together by its own gravity?##star##
+0##10##Self Generated##Short Answer##The nearest What to Earth is the Sun, which is the source of most of the planet's energy?##star##
+1##4##Self Generated##Short Answer##Near the end of its life, a What can also contain degenerate matter?##star##
+1##10##Self Generated##Short Answer##Astronomers can determine the mass, age, metallicity (chemical composition), and many other properties of a What by observing its motion through space, luminosity, and spectrum respectively?##star##
+2##4##Self Generated##Short Answer##The total mass of a What is the principal determinant of its evolution and eventual fate?##star##
+2##10##Self Generated##Short Answer##Stars can form part of a much larger gravitationally bound structure, such as a What cluster or a galaxy?##star##
+3##4##Self Generated##Short Answer##The oldest accurately dated What chart appeared in ancient Egyptian astronomy in 1534 BC?##star##
+3##10##Self Generated##Short Answer##The earliest known What catalogues were compiled by the ancient Babylonian astronomers of Mesopotamia in the late 2nd millennium BC, during the Kassite Period (ca?##star##
+4##4##Self Generated##Short Answer##The first What catalogue in Greek astronomy was created by Aristillus in approximately 300 BC, with the help of Timocharis?##star##
+4##10##Self Generated##Short Answer##Many of the constellations and What names in use today derive from Greek astronomy?##star##
+5##4##Self Generated##Short Answer##They built the first large observatory research institutes, mainly for the purpose of producing Zij What catalogues?##star##
+5##10##Self Generated##Short Answer##In 1834, Friedrich Bessel observed changes in the proper motion of the What Sirius, and inferred a hidden companion?##star##
+6##4##Self Generated##Short Answer##Edward Pickering discovered the first spectroscopic binary in 1899 when he observed the periodic splitting of the spectral lines of the What Mizar in a 104-day period?##star##
+6##10##Self Generated##Short Answer##Detailed observations of many binary What systems were collected by astronomers such as William Struve and S?##star##
+7##4##Self Generated##Short Answer##One such What naming company is the International Star Registry, which, during the 1980s, was accused of deceptive practice for making it appear that the assigned name was official?##star##
+7##10##Self Generated##Short Answer##Although stellar parameters can be expressed in SI units or CGS units, it is often most convenient to express mass, luminosity, and radii in solar units, based on the characteristics of the Sun:
+Large lengths, such as the radius of a giant What or the semi-major axis of a binary What system, are often expressed in terms of the astronomical unit (AU)approximately the mean distance between the Earth and the Sun (150 million km or 93 million miles)?##star##
+8##4##Self Generated##Short Answer##When the protostellar cloud has approximately reached the stable condition of hydrostatic equilibrium, a protoWhat forms at the core?##star##
+8##10##Self Generated##Short Answer##Every What generates a stellar wind of particles that causes a continual outflow of gas into space?##star##
+9##4##Self Generated##Short Answer##The metallicity can influence the duration that a What will burn its fuel, control the formation of magnetic fields[69] and modify the strength of the stellar wind?##star##
+9##10##Self Generated##Short Answer##After the What has consumed the helium at the core, fusion continues in a shell around a hot core of carbon and oxygen?##star##
+10##4##Self Generated##Short Answer##The What then follows an evolutionary path that parallels the original red giant phase, but at a higher surface temperature?##star##
+10##10##Self Generated##Short Answer##The final stage is reached when a massive What begins producing iron?##star##
+11##4##Self Generated##Short Answer##The shockwave formed by this sudden collapse causes the rest of the What to explode in a supernova?##star##
+11##10##Self Generated##Short Answer##In a neutron What the matter is in a state known as neutron-degenerate matter, with a more exotic form of degenerate matter, QCD matter, possibly present in the core?##star##
+12##4##Self Generated##Short Answer##Larger groups called What clusters also exist?##star##
+12##10##Self Generated##Short Answer##A 2010 What count estimate was 300 sextillion (3  1023) in the observable universe?##star##
+13##4##Self Generated##Short Answer##Almost everything about a What is determined by its initial mass, including essential characteristics such as luminosity and size, as well as its evolution, lifespan, and eventual fate?##star##
+13##10##Self Generated##Short Answer##The portion of heavier elements may also be an indicator of the likelihood that the What has a planetary system?##star##
+14##4##Self Generated##Short Answer##The What with the lowest iron content ever measured is the dwarf HE1327-2326, with only 1/200,000th the iron content of the Sun?##star##
+14##10##Self Generated##Short Answer##By contrast, the super-metal-rich What  Leonis has nearly double the abundance of iron as the Sun, while the planet-bearing What 14 Herculis has nearly triple the iron?##star##
+15##4##Self Generated##Short Answer##The components of motion of a What consist of the radial velocity toward or away from the Sun, and the traverse angular movement, which is called its proper motion?##star##
+15##10##Self Generated##Short Answer##The proper motion of a What is determined by precise astrometric measurements in units of milli-arc seconds (mas) per year?##star##
+16##4##Self Generated##Short Answer##Once both rates of movement are known, the space velocity of the What relative to the Sun or the galaxy can be computed?##star##
+16##10##Self Generated##Short Answer##The magnetic field of a What is generated within regions of the interior where convective circulation occurs?##star##
+17##4##Self Generated##Short Answer##The reason for this limit is not precisely known, but it is partially due to the Eddington luminosity which defines the maximum amount of luminosity that can pass through the atmosphere of a What without ejecting the gases into space?##star##
+17##10##Self Generated##Short Answer##However, a What named R136a1 in the Large Magellanic Cloud, RMC 136a What cluster has been measured at 265 solar masses, which puts this limit into question?##star##
+18##4##Self Generated##Short Answer##With a mass only 93times that of Jupiter, AB Doradus C, a companion to AB Doradus A, is the smallest known What undergoing nuclear fusion in its core?##star##
+18##10##Self Generated##Short Answer##The combination of the radius and the mass of a What determines the surface gravity?##star##
+19##4##Self Generated##Short Answer##The B-class What Achernar, for example, has an equatorial rotation velocity of about 225km/s or greater, causing its equator to be slung outward and giving it an equatorial diameter that is more than 50% larger than the distance between the poles?##star##
+19##10##Self Generated##Short Answer##This rate of rotation is just below the critical velocity of 300km/s where the What would break apart?##star##
+20##4##Self Generated##Short Answer##The temperature in the core region of a What is several millionkelvins?##star##
+20##10##Self Generated##Short Answer##The particle radiation emitted by a What is manifested as the stellar wind,[123] which streams from the outer layers as free protons, and electrically charged alpha, and beta particles?##star##
+21##4##Self Generated##Short Answer##If the distance of the What is known, such as by measuring the parallax, then the luminosity of the What can be derived?##star##
+21##10##Self Generated##Short Answer##The luminosity of a What is the amount of light and other forms of radiant energy it radiates per unit of time?##star##
+22##4##Self Generated##Short Answer##The luminosity of a What is determined by the radius and the surface temperature?##star##
+22##10##Self Generated##Short Answer##The rapidly rotating What Vega, for example, has a higher energy flux at its poles than along its equator?##star##
+23##4##Self Generated##Short Answer##This What is at least 5,000,000 times more luminous than the Sun?##star##
+23##10##Self Generated##Short Answer##A binary What system that includes a nearby white dwarf can produce certain types of these spectacular stellar explosions, including the nova and a Type 1a supernova?##star##
+24##4##Self Generated##Short Answer##The interior of a stable What is in a state of hydrostatic equilibrium: the forces on any small volume almost exactly counterbalance each other?##star##
+24##10##Self Generated##Short Answer##The pressure gradient is established by the temperature gradient of the plasma; the outer part of the What is cooler than the core?##star##
+25##4##Self Generated##Short Answer##The temperature at the core of a main sequence or giant What is at least on the order of 107 K?##star##
+25##10##Self Generated##Short Answer##In addition to hydrostatic equilibrium, the interior of a stable What will also maintain an energy balance of thermal equilibrium?##star##
+26##4##Self Generated##Short Answer##The outgoing flux of energy leaving any layer within the What will exactly match the incoming flux from below?##star##
+26##10##Self Generated##Short Answer##The occurrence of convection in the outer envelope of a main sequence What depends on the mass?##star##
+27##4##Self Generated##Short Answer##The portion of a What that is visible to an observer is called the photosphere?##star##
+27##10##Self Generated##Short Answer##This is the layer at which the plasma of the What becomes transparent to photons of light?##star##
+28##4##Self Generated##Short Answer##In a main sequence What such as the Sun, the lowest level of the atmosphere is the thin chromosphere region, where spicules appear and stellar flares begin?##star##
+28##10##Self Generated##Short Answer##The example below shows the amount of time required for a What of 20 solar masses to consume all of its nuclear fuel?##star##

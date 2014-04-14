@@ -1,0 +1,19 @@
+0##4##Self Generated##Short Answer##What is a massive, luminous sphere of plasma held together by its own gravity?##star##
+0##10##Self Generated##Short Answer##Near the end of its life, what can also contain degenerate matter?##star##
+1##4##Self Generated##Short Answer##Astronomers can determine the mass, age, metallicity (chemical composition), and many other properties of what by observing its motion through space, luminosity, and spectrum respectively?##star##
+1##10##Self Generated##Short Answer##The total mass of what is the principal determinant of its evolution and eventual fate?##star##
+2##4##Self Generated##Short Answer##Stars can form part of a much larger gravitationally bound structure, such as what cluster or a galaxy?##star##
+2##10##Self Generated##Short Answer##The metallicity can influence the duration that what will burn its fuel, control the formation of magnetic fields[69] and modify the strength of the stellar wind?##star##
+3##4##Self Generated##Short Answer##Almost everything about what is determined by its initial mass, including essential characteristics such as luminosity and size, as well as its evolution, lifespan, and eventual fate?##star##
+3##10##Self Generated##Short Answer##The components of motion of what consist of the radial velocity toward or away from the Sun, and the traverse angular movement, which is called its proper motion?##star##
+4##4##Self Generated##Short Answer##The proper motion of what is determined by precise astrometric measurements in units of milli-arc seconds (mas) per year?##star##
+4##10##Self Generated##Short Answer##The magnetic field of what is generated within regions of the interior where convective circulation occurs?##star##
+5##4##Self Generated##Short Answer##The reason for this limit is not precisely known, but it is partially due to the Eddington luminosity which defines the maximum amount of luminosity that can pass through the atmosphere of what without ejecting the gases into space?##star##
+5##10##Self Generated##Short Answer##However, what named R136a1 in the Large Magellanic Cloud, RMC 136what cluster has been measured at 265 solar masses, which puts this limit into question?##star##
+6##4##Self Generated##Short Answer##The combination of the radius and the mass of what determines the surface gravity?##star##
+6##10##Self Generated##Short Answer##The temperature in the core region of what is several millionkelvins?##star##
+7##4##Self Generated##Short Answer##The particle radiation emitted by what is manifested as the stellar wind,[123] which streams from the outer layers as free protons, and electrically charged alpha, and beta particles?##star##
+7##10##Self Generated##Short Answer##The luminosity of what is the amount of light and other forms of radiant energy it radiates per unit of time?##star##
+8##4##Self Generated##Short Answer##The luminosity of what is determined by the radius and the surface temperature?##star##
+8##10##Self Generated##Short Answer##The portion of what that is visible to an observer is called the photosphere?##star##
+9##4##Self Generated##Short Answer##The example below shows the amount of time required for what of 20 solar masses to consume all of its nuclear fuel?##star##

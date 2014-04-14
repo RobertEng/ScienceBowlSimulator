@@ -1,0 +1,51 @@
+0##4##Self Generated##Short Answer##The European What Bison bonasus, or wisent is found in Europe and the Caucasus, re-introduced after being extinct in the wild?##bison##
+0##10##Self Generated##Short Answer##While all What species are usually grouped into their own genus, they are sometimes included in the closely related genus Bos,[1] together with cattle, gaur, kouprey and yaks, with which What have a limited ability to interbreed?##bison##
+1##4##Self Generated##Short Answer##The American What and the European wisent are the largest terrestrial animals in North America and Europe?##bison##
+1##10##Self Generated##Short Answer##American What are known for living in the Great Plains?##bison##
+2##4##Self Generated##Short Answer##The American plains What is no longer listed as endangered, but the wood What is on the endangered species list in Canada?##bison##
+2##10##Self Generated##Short Answer##The American What has four lumbar vertebrae, while the European has five?##bison##
+3##4##Self Generated##Short Answer##The difference in this case is that what would be the first lumbar vertebra in wisent has ribs attached to it in American What and is thus counted as the 15th thoracic vertebra, compared to 14 thoracic vertebrae in wisent?##bison##
+3##10##Self Generated##Short Answer##Adult American What are less slim in build and have shorter legs?##bison##
+4##4##Self Generated##Short Answer##American What tend to graze more, and browse less than their European cousins?##bison##
+4##10##Self Generated##Short Answer##American What are more easily tamed than their European cousins, and breed with domestic cattle more readily?##bison##
+5##4##Self Generated##Short Answer##Thereafter, the family lineage of What and taurine cattle does not appear to be a straightforward "tree" structure as is often depicted in much evolution, because there is evidence of interbreeding and crossbreeding between different species and members within this family, even many millions of years after their ancestors separated into different species?##bison##
+5##10##Self Generated##Short Answer##An earlier study using amplified fragment length polymorphism (AFLP) fingerprinting showed a close association of wisent and American What and probably with yak, but noted that the interbreeding of Bovini species made determining relationships problematic?##bison##
+6##4##Self Generated##Short Answer##The Steppe What (Bison priscus) diverged from the lineage that led to cattle (Bos taurus) approximately 2 to 5 million years ago?##bison##
+6##10##Self Generated##Short Answer##The Steppe What spread across Eurasia and was the What that was pictured in the ancient cave drawings of Spain and Southern France?##bison##
+7##4##Self Generated##Short Answer##At one point, some Steppe What crossbred with the ancestors of the modern yak?##bison##
+7##10##Self Generated##Short Answer##After that crossbreeding, a population of Steppe What (Bison priscus) crossed the Bering Land Bridge to North America?##bison##
+8##4##Self Generated##Short Answer##There is evidence of multiple crossings of What to and from Asia starting before 500,000 years ago and continuing until at least 220,000 years ago?##bison##
+8##10##Self Generated##Short Answer##The Steppe What spread through the northern parts of North America and lived in Eurasia until approximately 11,000 years ago[13] and North America until 4,000 to 8,000 years ago?##bison##
+9##4##Self Generated##Short Answer##Steppe What crossed into North America?##bison##
+9##10##Self Generated##Short Answer##Giant What (Bison latifrons) appeared in the fossil record approximately 500,000 years ago?##bison##
+10##4##Self Generated##Short Answer##These ranchers bred some of the What with cattle in an effort to produce "cattleo"[22] (today called "beefalo") Accidental crossings were also known to occur?##bison##
+10##10##Self Generated##Short Answer##In the United States, many ranchers are now utilizing DNA testing to cull the residual cattle genetics from their What herds?##bison##
+11##4##Self Generated##Short Answer##National Bison Association has adopted a code of ethics which prohibits its members from deliberately crossbreeding What with any other species?##bison##
+11##10##Self Generated##Short Answer##Some cattle breeds are intentionally bred with What to produce, for instance, beefalo hybrids?##bison##
+12##4##Self Generated##Short Answer##Wisent-American What hybrids were briefly experimented with in Germany (and found to be fully fertile) and a herd of such animals is maintained in Russia all the time?##bison##
+12##10##Self Generated##Short Answer##A What wallow is a shallow depression in the soil, either wet or dry?##bison##
+13##4##Self Generated##Short Answer##In the process of wallowing, What may become infected by the fatal disease anthrax, which may occur naturally in the soil?##bison##
+13##10##Self Generated##Short Answer##At the time What ran wild, they were rated second only to the Alaska brown bear as a potential killer, more dangerous than the grizzly bear?##bison##
+14##4##Self Generated##Short Answer##American What live in river valleys, and on prairies and plains?##bison##
+14##10##Self Generated##Short Answer##Though not particularly known as high altitude animals, What in the Yellowstone Park What herd are frequently found at elevations above 8,000 feet and the Henry Mountains What herd is found on the plains around the Henry Mountains, Utah, as well as in mountain valleys of the Henry Mountains to an altitude of 10,000 feet?##bison##
+15##4##Self Generated##Short Answer##European What (Wisent) tend to live in lightly wooded to fully wooded areas and areas with increased shrubs and bushes, though they can also live on grasslands and plains?##bison##
+15##10##Self Generated##Short Answer##Throughout most of their historical range, free-ranging What are not tolerated by landowners or state governments?##bison##
+16##4##Self Generated##Short Answer##Montana, free-ranging What on public land may be shot, citing concerns of spreading disease and damage to public property?##bison##
+16##10##Self Generated##Short Answer##Legislation surrounding the What continues to be proposed and vetoed by the governor of Montana, and remains an issue of contention between Native American tribes and the American government?##bison##
+17##4##Self Generated##Short Answer##In the winter, What forage for grass under the snow?##bison##
+17##10##Self Generated##Short Answer##Bison are notably better browsers than cattle, since cattle are more obligate grazers, even though wood What have also been described as "obligate grazers"?##bison##
+18##4##Self Generated##Short Answer##American What prefer grass to shrubbery and trees?##bison##
+18##10##Self Generated##Short Answer##Due to their size, What have few predators?##bison##
+19##4##Self Generated##Short Answer##Brown bear also prey on What calves, often by driving off the pack and consuming the wolves' kill?##bison##
+19##10##Self Generated##Short Answer##Bison in the Antelope Island What herd are regularly inoculated against brucellosis, parasites, clostridium, infectious bovine rhino tracheitis and bovine vibriosis?##bison##
+20##4##Self Generated##Short Answer##The major concerns for illness in European What are foot-and-mouth disease and balanoposthitis, which affects the male sex organs; a number of parasitic diseases have also been cited as threats?##bison##
+20##10##Self Generated##Short Answer##The extinction of four species of What (Bison antiquus, Bison latifrons, Bison occidentalis, and Bison priscus) is linked to natural selection?##bison##
+21##4##Self Generated##Short Answer##Humans were almost exclusively accountable for the near-extinction of the American What in the 1800s?##bison##
+21##10##Self Generated##Short Answer##At the beginning of the 19th century, tens of millions of What roamed North America?##bison##
+22##4##Self Generated##Short Answer##This practice of over-hunting the What reduced their population to hundreds?##bison##
+22##10##Self Generated##Short Answer##The American What is therefore no longer considered an endangered species?##bison##
+23##4##Self Generated##Short Answer##In America, the commercial industry for What has been slow to develop despite individuals like Ted Turner, who have long marketed What meat?##bison##
+23##10##Self Generated##Short Answer##In the 1990s, Turner found limited success with restaurants for high quality cuts of meat which include What steaks and tenderloin?##bison##
+24##4##Self Generated##Short Answer##In Canada, commercial What farming began in the mid 1980s, concerning an unknown number of animals at that time?##bison##
+24##10##Self Generated##Short Answer##The first census of the What occurred in 1996, which recorded 45,235 What on 745 farms and would grow to 195,728 What on 1,898 farms for the 2006 census?##bison##
+25##4##Self Generated##Short Answer##Several pet food companies use What as a red meat alternative in dog foods?##bison##
